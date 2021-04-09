@@ -2,14 +2,14 @@ package seedu.duke;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import seedu.duke.task.Assignment;
-import seedu.duke.task.FinalExam;
-import seedu.duke.task.Midterm;
-import seedu.duke.task.Task;
-import seedu.duke.task.TaskManager;
-import seedu.duke.task.command.AddTask;
-import seedu.duke.task.command.DeleteTask;
-import seedu.duke.task.command.PinTask;
+import seedu.duke.features.task.tasktypes.Assignment;
+import seedu.duke.features.task.tasktypes.FinalExam;
+import seedu.duke.features.task.tasktypes.Midterm;
+import seedu.duke.features.task.tasktypes.Task;
+import seedu.duke.features.task.TaskManager;
+import seedu.duke.features.task.command.AddTask;
+import seedu.duke.features.task.command.DeleteTask;
+import seedu.duke.features.task.command.PinTask;
 
 import java.time.format.DateTimeParseException;
 
@@ -156,13 +156,13 @@ class TaskListTest {
 
     @Test
     public void isValidTaskType_validTasktype_success() {
-        String invalidTaskType = "1";
-        assertTrue(TaskManager.isValidTaskType(invalidTaskType));
+        int validTaskType = 1;
+        assertTrue(TaskManager.isValidTaskType(validTaskType));
     }
 
     @Test
     public void isValidTaskType_invalidTasktype_printErrorMessage() {
-        String invalidTaskType = "5";
+        int invalidTaskType = 5;
         assertFalse(TaskManager.isValidTaskType(invalidTaskType));
     }
 
