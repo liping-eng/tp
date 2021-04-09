@@ -1,8 +1,5 @@
-CS2113T ~~ software engineering ~~ 4 ~~ A
-Very fun module! Java is avery fun language:)
-I think I am enjoying this module:)
+CS2113T ~~ software engineering ~~ 4 ~~ A ~~ {b=2, a=1, finalss=5, h=2, f=2, e=5, z=60, d=4}
+Very fun module! Java is a very fun language:)
 Overall 10/10 -- end of module --
-CG1112 ~~ engineering principles ~~ 6 ~~ A
-You have not reviewed this module yet. -- end of module --
-CS1010 ~~ no description ~~ 4 ~~ SU
+CG1112 ~~ epp2 ~~ 8 ~~ A ~~ {finals=40}
 You have not reviewed this module yet. -- end of module --
